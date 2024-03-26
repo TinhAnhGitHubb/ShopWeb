@@ -1,0 +1,79 @@
+.jobItemContainer {
+    margin: 20px 25px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px 15px;
+    width: 500px;
+
+}
+
+.jobItemContainer a {
+    cursor: pointer;
+}
+
+.jobItem {
+    border-bottom: 1px solid grey;
+
+}
+
+.jobTime {
+    font-size: 15px;
+}
+
+.jobName {
+    font-size: 24px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+.jobDescription {
+    font-size: 17px;
+}
+
+.jobMore {
+    text-decoration: none;
+    color: #545691;
+}
+
+.jobSalary {
+    margin-top: 20px;
+    color: #6f6fa5;
+}
+
+.jobMoreInfos {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jobLocation {
+    color: red;
+    font-weight: 600;
+    display: inline-flex;
+    column-gap: 0.5rem;
+}
+
+
+.btnMore {
+    height: 42px;
+    width: 120px;
+    background-color: #6366f1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.btnMore:hover {
+    background-color: aqua;
+}
+
+.btnMore:active {
+    background-color: aqua;
+    transform: translateY(3px);
+}

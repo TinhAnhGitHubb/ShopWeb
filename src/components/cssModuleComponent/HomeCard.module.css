@@ -1,0 +1,70 @@
+.employerBox,
+.devBox {
+    width: 450px;
+    padding: 20px;
+    background-color: #e0e7ff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.p1Format {
+    font-weight: 1000;
+    font-size: 30px;
+    margin-bottom: 3px;
+    background-color: transparent;
+}
+
+.p2Format {
+    font-size: 18px;
+    margin-bottom: 4px;
+    background-color: transparent;
+}
+
+.devBtn {
+    border: none;
+    color: white;
+    background-color: black;
+    height: 52px;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* Hover Effect */
+.devBtn:hover {
+    background-color: grey;
+}
+
+/* Clicking Effect */
+.devBtn:active {
+    background-color: darkgrey;
+    transform: translateY(3px);
+}
+
+.emBtn {
+    border: none;
+    color: white;
+    background-color: #6366f1;
+    height: 42px;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* Hover Effect */
+.emBtn:hover {
+    background-color: aqua;
+}
+
+/* Clicking Effect */
+.emBtn:active {
+    background-color: aqua;
+    transform: translateY(3px);
+}

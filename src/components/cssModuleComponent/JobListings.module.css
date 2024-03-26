@@ -1,0 +1,47 @@
+.JobContainer {
+    background-color: #edf4fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jobList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 989px) {
+    .jobList {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .jobItemContainer {
+        width: 300px;
+    }
+}
+
+.titleJob {
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titleJob p {
+    margin-top: 30px;
+    color: #5c60dd;
+    font-weight: 1000;
+    font-size: 34px;
+    background-color: transparent;
+}

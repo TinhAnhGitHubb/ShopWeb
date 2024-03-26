@@ -1,0 +1,52 @@
+.containerTwo {
+    position: relative;
+
+
+    display: block;
+    /* Default display */
+
+}
+
+.navMenu {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    height: 100px;
+    /* pointer-events: none;
+    opacity: 0; */
+    transition: top .4s, opacity .3s;
+}
+
+.navList {
+    background-color: #4338ca;
+    width: 100%;
+    padding-top: 0.25rem;
+
+}
+
+.navLink {
+    font-weight: 650;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    align-items: center;
+    background-color: transparent;
+    transition: background .3s;
+
+}
+
+.navLink a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.navLink:hover {
+    background-color: aqua;
+}
+
+
+

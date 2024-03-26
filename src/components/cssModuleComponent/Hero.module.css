@@ -1,0 +1,30 @@
+.textSection {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    /*Temporary for later fixed*/
+}
+
+.TextContainer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.subText {
+    margin-top: 10px;
+    color: #4338ca;
+    background-color: transparent;
+}
+
+.HeadingText {
+    color: #4338ca;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -10px;
+    background-color: transparent;
+}
